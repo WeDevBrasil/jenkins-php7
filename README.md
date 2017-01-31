@@ -1,2 +1,2 @@
-# php7-apache
-Apache PHP 7 Docker Image
+# Jenkins-PHP7
+Docker image - Jenkins + PHP7
