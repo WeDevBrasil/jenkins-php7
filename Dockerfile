@@ -5,5 +5,5 @@ MAINTAINER Thiago Moreira <loganguns@gmail.com>
 
 # if we want to install via apt
 USER root
-RUN apt-get update && apt-get install -y php7.0 php7.0-xdebug php7.0-xsl php7.0-dom php7.0-zip php7.0-mbstring
+RUN apt-get update && apt-get install -y php5 php5-common php5-cli php5-xdebug php5-xsl
 USER jenkins # drop back to the regular jenkins user - good practice
